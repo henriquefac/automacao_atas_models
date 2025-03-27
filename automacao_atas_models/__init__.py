@@ -1,2 +1,3 @@
 from .models import Ata
-__all__ = ["Atas"]
+from .models.secoes import cabecalho, pautas, participantes
+__all__ = ["Ata", "cabecalho", "pautas", "participantes"]

@@ -1,3 +1,3 @@
-from automacao_atas_models import Ata
+from automacao_atas_models import Ata, participantes
 import json
-print(json.dumps(Ata.model_json_schema(), indent=4))
+print(json.dumps(participantes.Presente.model_json_schema(), indent=4))
